@@ -28,8 +28,17 @@ sudo apt install python3-flask python3-flask-restful
 
 ## Kullanım
 
-```python
+### Sunucu'da
+
+```bash
 python3 ornekServis.py
 ```
 
+### İstemci'de
+
+```bash
+curl http://IPADRESİ/rastgeleSayi
+curl http://IPADRESİ/kareAl/5
+
+```
 
